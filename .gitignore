@@ -1,11 +1,7 @@
 .env
-venv/
+*.pkl
+*.db
+data/raw/*
+data/processed/*
 __pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-.env.local
-.env.*.local
-.idea/
-.vscode/
-.DS_Store
+*.pyc
